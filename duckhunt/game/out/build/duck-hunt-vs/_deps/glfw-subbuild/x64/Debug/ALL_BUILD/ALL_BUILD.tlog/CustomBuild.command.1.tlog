@@ -1,0 +1,10 @@
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild -BC:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild --check-stamp-file C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

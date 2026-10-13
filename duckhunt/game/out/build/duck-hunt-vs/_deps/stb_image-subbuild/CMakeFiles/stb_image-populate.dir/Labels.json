@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/stb_image-populate"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/889c39a3a24c57255df571fc77560c7c/stb_image-populate.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/5669f5f0a7b376ae6502d245d7b8ab70/stb_image-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/4acfcbf438168b8a9096376df8c26d07/stb_image-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb_image-populate"
+		],
+		"name" : "stb_image-populate"
+	}
+}

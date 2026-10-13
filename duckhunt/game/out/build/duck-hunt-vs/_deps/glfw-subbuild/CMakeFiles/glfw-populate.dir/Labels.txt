@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/60d01bb3dfbd56a8530d9e8626505e02/glfw-populate.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/7feaec2299fbe6ac4cc14490d2a21b64/glfw-populate-complete.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-build.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-configure.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-download.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-install.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-mkdir.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-patch.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-test.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-subbuild/CMakeFiles/0b43046b130d76053211ba6e7a696782/glfw-populate-update.rule

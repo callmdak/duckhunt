@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/eeb74534f023894c417c6fd29df12a24/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/768955eeb143d448da2cb5c9a6c4693c/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-subbuild/CMakeFiles/6299bec510d279cff316c16e78ad38d1/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

@@ -1,0 +1,150 @@
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/tmp/stb_image-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/tmp/stb_image-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\_deps\stb_image-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/tmp/stb_image-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\_deps\stb_image-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\_deps\stb_image-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\_deps\stb_image-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\4ACFCBF438168B8A9096376DF8C26D07\STB_IMAGE-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\_deps\stb_image-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\5669F5F0A7B376AE6502D245D7B8AB70\STB_IMAGE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/Debug/stb_image-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/Debug/stb_image-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKEFILES\889C39A3A24C57255DF571FC77560C7C\STB_IMAGE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\_DEPS\STB_IMAGE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild -BC:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild --check-stamp-file C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/stb_image-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

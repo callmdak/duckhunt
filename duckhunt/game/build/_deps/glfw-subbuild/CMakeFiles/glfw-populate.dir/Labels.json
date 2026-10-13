@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/970073e1754e47a3f884f457bc511134/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/b4f78dee4c1bcc72aa9999ba26cc7fc9/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

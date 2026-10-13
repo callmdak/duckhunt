@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PHESh\OneDrive\Documentos\PG\PG\Lista3\01\out\build\duck-hunt-vs\CMakeFiles\42b571c91030758a319f7aabed63fb53\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D28C5AB3-C48B-3DDD-9718-6D4CC5477504}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

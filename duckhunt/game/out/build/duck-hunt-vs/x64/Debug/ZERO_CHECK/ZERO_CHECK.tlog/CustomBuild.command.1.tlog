@@ -1,0 +1,10 @@
+^C:\USERS\PHESH\ONEDRIVE\DOCUMENTOS\PG\PG\LISTA3\01\OUT\BUILD\DUCK-HUNT-VS\CMAKEFILES\A3CC39F9F4625962A3B8F3BCF01393E4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01 -BC:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/ProcessamentoGrafico.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

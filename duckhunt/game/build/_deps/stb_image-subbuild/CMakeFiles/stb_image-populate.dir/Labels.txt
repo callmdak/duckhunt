@@ -1,0 +1,14 @@
+# Target labels
+ stb_image-populate
+# Source files and their labels
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/stb_image-populate
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/b75126f8863db65ed6e5763c54b947a1/stb_image-populate.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/0b1fb115ac48180f9b3e50a18fab3c7b/stb_image-populate-complete.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-build.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-configure.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-download.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-install.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-mkdir.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-patch.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-test.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/stb_image-subbuild/CMakeFiles/d86252bfb7ef8c97b69c03c1b3926048/stb_image-populate-update.rule

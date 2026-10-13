@@ -1,0 +1,16 @@
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/CMakeFiles/glad.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/CMakeFiles/ProcessamentoGrafico.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/CMakeFiles/INSTALL.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/CMakeFiles/ALL_BUILD.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/CMakeFiles/ZERO_CHECK.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/CMakeFiles/uninstall.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/CMakeFiles/INSTALL.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/src/CMakeFiles/glfw.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/src/CMakeFiles/INSTALL.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glfw-build/docs/CMakeFiles/INSTALL.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-build/CMakeFiles/INSTALL.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-build/glm/CMakeFiles/glm.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/out/build/duck-hunt-vs/_deps/glm-build/glm/CMakeFiles/INSTALL.dir

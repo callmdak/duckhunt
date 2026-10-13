@@ -1,0 +1,3 @@
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/ZERO_CHECK.dir

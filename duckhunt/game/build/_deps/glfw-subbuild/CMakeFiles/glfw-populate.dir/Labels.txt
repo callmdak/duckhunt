@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/970073e1754e47a3f884f457bc511134/glfw-populate.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/b4f78dee4c1bcc72aa9999ba26cc7fc9/glfw-populate-complete.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-build.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-configure.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-download.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-install.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-mkdir.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-patch.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-test.rule
+C:/Users/PHESh/OneDrive/Documentos/PG/PG/Lista3/01/build/_deps/glfw-subbuild/CMakeFiles/8adbb0af489b2bcf9bad7f6e6513bced/glfw-populate-update.rule
