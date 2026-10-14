@@ -33,6 +33,8 @@ bool initializeRenderer(Renderer& renderer, const GameConfig& config,
     auto& duck = renderer.duck;
     auto& dog = renderer.dog;
     auto& gun = renderer.gun;
+    auto& crosshairAim = renderer.crosshairAim;
+    auto& crosshairClick = renderer.crosshairClick;
     auto& white = renderer.white;
     program = createShaderProgram(resourceRoot);
     if (program == 0)
@@ -83,7 +85,9 @@ bool initializeRenderer(Renderer& renderer, const GameConfig& config,
         loadImage((assetRoot / config.grassImage).string(), grass) &&
         loadImage((assetRoot / config.duckImage).string(), duck) &&
         loadImage((assetRoot / config.dogImage).string(), dog) &&
-        loadImage((assetRoot / config.gunImage).string(), gun);
+        loadImage((assetRoot / config.gunImage).string(), gun) &&
+        loadImage((assetRoot / config.crosshairImage).string(), crosshairAim) &&
+        loadImage((assetRoot / config.crosshairClickImage).string(), crosshairClick);
     if (!spritesLoaded)
     {
         destroyRenderer(renderer);
@@ -305,7 +309,7 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
     if (game.duckAlive)
     {
         drawSprite(program, vao, duck, projection, game.duckX, game.duckY,
-            72.0f, 72.0f, 0.0f, 1.0f, game.duckVelocityX < 0.0f);
+            150.0f, 150.0f, 0.0f, 1.0f, game.duckVelocityX < 0.0f);
     }
 
     if (game.started && !game.gameOver && !game.dogCelebration)
@@ -332,15 +336,13 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
         double mouseX = 0.0;
         double mouseY = 0.0;
         glfwGetCursorPos(window, &mouseX, &mouseY);
-        const glm::vec4 crosshair(0.9f, 0.12f, 0.08f, 0.95f);
-        drawSprite(program, vao, white, projection, static_cast<float>(mouseX) - 12.0f,
-            static_cast<float>(mouseY) - 1.0f, 8.0f, 2.0f, 0.0f, 1.0f, false, crosshair);
-        drawSprite(program, vao, white, projection, static_cast<float>(mouseX) + 4.0f,
-            static_cast<float>(mouseY) - 1.0f, 8.0f, 2.0f, 0.0f, 1.0f, false, crosshair);
-        drawSprite(program, vao, white, projection, static_cast<float>(mouseX) - 1.0f,
-            static_cast<float>(mouseY) - 12.0f, 2.0f, 8.0f, 0.0f, 1.0f, false, crosshair);
-        drawSprite(program, vao, white, projection, static_cast<float>(mouseX) - 1.0f,
-            static_cast<float>(mouseY) + 4.0f, 2.0f, 8.0f, 0.0f, 1.0f, false, crosshair);
+        
+        const SpriteTexture& crosshairSprite =
+            game.crosshairFlashTimer > 0.0f ? renderer.crosshairClick : renderer.crosshairAim;
+        const float cs = config.crosshairSize;
+        drawSprite(program, vao, crosshairSprite, projection,
+            static_cast<float>(mouseX) - cs * 0.5f,
+            static_cast<float>(mouseY) - cs * 0.5f, cs, cs);
 
         const float gunWidth = 64.0f;
         const float gunHeight = 96.0f;
@@ -407,6 +409,8 @@ void destroyRenderer(Renderer& renderer)
     glDeleteTextures(1, &renderer.duck.id);
     glDeleteTextures(1, &renderer.dog.id);
     glDeleteTextures(1, &renderer.gun.id);
+    glDeleteTextures(1, &renderer.crosshairAim.id);
+    glDeleteTextures(1, &renderer.crosshairClick.id);
     glDeleteBuffers(1, &renderer.ebo);
     glDeleteBuffers(1, &renderer.vbo);
     glDeleteVertexArrays(1, &renderer.vao);

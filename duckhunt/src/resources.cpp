@@ -74,6 +74,9 @@ bool loadConfig(const std::filesystem::path& resourceRoot, GameConfig& config)
             else if (key == "dog_image") config.dogImage = value;
             else if (key == "gun_image") config.gunImage = value;
             else if (key == "duck_frames") config.duckFrames = std::stoi(value);
+            else if (key == "crosshair_image") config.crosshairImage = value;
+            else if (key == "crosshair_click_image") config.crosshairClickImage = value;
+            else if (key == "crosshair_size") config.crosshairSize = std::stof(value);
         }
         catch (const std::exception&)
         {
@@ -87,6 +90,7 @@ bool loadConfig(const std::filesystem::path& resourceRoot, GameConfig& config)
     config.shotsPerRound = std::max(config.shotsPerRound, 1);
     config.duckSpeed = std::max(config.duckSpeed, 20.0f);
     config.duckFrames = std::max(config.duckFrames, 1);
+    config.crosshairSize = std::max(config.crosshairSize, 8.0f);
     return true;
 }
 

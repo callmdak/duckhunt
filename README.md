@@ -8,7 +8,7 @@ Requisitos: CMake 3.20+, Git, compilador C++17 e OpenGL. O CMake baixa GLFW, GLM
 
 ```sh
 cmake -S . -B build
-cmake --build build --config Release
+cmake --build build 
 ```
 
 Execute `build/bin/Release/duckhunt.exe` no Windows ou `build/bin/Release/duckhunt` no Linux/macOS.

@@ -22,6 +22,9 @@ struct GameConfig
     std::string dogImage = "dog.sprite";
     std::string gunImage = "gun.sprite";
     int duckFrames = 4;
+    std::string crosshairImage = "crosshair.png";
+    std::string crosshairClickImage = "crosshair_click.png";
+    float crosshairSize = 32.0f;
 };
 
 // textura opengl e dados de animação de uma imagem
@@ -47,12 +50,14 @@ struct GameState
     int round = 1;
     int shotsLeft = 3;
     int hits = 0;
+    int completedRounds = 0;
     bool duckAlive = true;
     bool gameOver = false;
     bool started = false;
     bool dogCelebration = false;
     bool won = false;
     float dogCelebrationTimer = 0.0f;
+    float crosshairFlashTimer = 0.0f;
 };
 
 // dados compartilhados pelos callbacks de entrada

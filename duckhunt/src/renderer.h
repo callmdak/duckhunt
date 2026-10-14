@@ -23,6 +23,8 @@ struct Renderer
     SpriteTexture duck;
     SpriteTexture dog;
     SpriteTexture gun;
+    SpriteTexture crosshairAim;
+    SpriteTexture crosshairClick;
     SpriteTexture white;
     float hillsOffset = 0.0f;
     float grassOffset = 0.0f;

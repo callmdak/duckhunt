@@ -57,6 +57,8 @@ void startNextRound(GameState& game, const GameConfig& config, std::mt19937& ran
     launchDuck(game, config, random);
 }
 
+    constexpr float duckSize = 150.0f;
+
 void mouseButtonCallback(GLFWwindow* window, int button, int action, int)
 {
     if (button != GLFW_MOUSE_BUTTON_LEFT || action != GLFW_PRESS)
@@ -73,14 +75,14 @@ void mouseButtonCallback(GLFWwindow* window, int button, int action, int)
     }
 
     GameState* game = context->game;
-
+    game->crosshairFlashTimer = 0.12f;
+    
     double mouseX = 0.0;
     double mouseY = 0.0;
     glfwGetCursorPos(window, &mouseX, &mouseY);
     --game->shotsLeft;
 
     // considera acerto quando o clique cai dentro do quadrado do pato
-    constexpr float duckSize = 72.0f;
     if (mouseX >= game->duckX && mouseX <= game->duckX + duckSize &&
         mouseY >= game->duckY && mouseY <= game->duckY + duckSize)
     {
@@ -141,17 +143,17 @@ void updateGame(GameState& game, const GameConfig& config, std::mt19937& random,
             // move o pato e inverte a direção ao tocar nos limites
             game.duckX += game.duckVelocityX * deltaTime;
             game.duckY += game.duckVelocityY * deltaTime;
-            if (game.duckX < 0.0f || game.duckX > config.width - 72.0f)
+            if (game.duckX < 0.0f || game.duckX > config.width - duckSize)
             {
                 game.duckVelocityX = -game.duckVelocityX;
                 game.duckX = std::clamp(game.duckX, 0.0f,
-                    static_cast<float>(config.width) - 72.0f);
+                    static_cast<float>(config.width) - duckSize);
             }
-            if (game.duckY < 35.0f || game.duckY > config.height * 0.62f - 72.0f)
+            if (game.duckY < 35.0f || game.duckY > config.height * 0.62f - duckSize)
             {
                 game.duckVelocityY = -game.duckVelocityY;
                 game.duckY = std::clamp(game.duckY, 35.0f,
-                    config.height * 0.62f - 72.0f);
+                    config.height * 0.62f - duckSize);
             }
         }
 
@@ -175,5 +177,6 @@ void updateGame(GameState& game, const GameConfig& config, std::mt19937& random,
                 game.gameOver = true;
             }
         }
+        game.crosshairFlashTimer = std::max(0.0f, game.crosshairFlashTimer - deltaTime);
     }
 }
