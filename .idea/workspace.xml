@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="DuckHunt" targetName="glfw" folderName="GLFW3" />
+      <config projectName="DuckHunt" targetName="glad" />
+      <config projectName="DuckHunt" targetName="update_mappings" folderName="GLFW3" />
+      <config projectName="DuckHunt" targetName="glm" />
+      <config projectName="DuckHunt" targetName="duckhunt" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aadf0bd-343c-488c-8ec2-eeefd7d76648" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="XPYxaFIG" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.581687778351729" />
+      <entry key="MS500" value="3.49991303112521" />
+      <entry key="S2" value="9.876411041790535" />
+      <entry key="S5" value="16.134351291790047" />
+      <entry key="S10" value="22.233334824421423" />
+      <entry key="S30" value="36.60208153348847" />
+      <entry key="S60" value="45.26656239049027" />
+      <entry key="M2" value="51.31641087808138" />
+      <entry key="M5" value="55.700327779988086" />
+      <entry key="M10" value="57.30959121848012" />
+      <entry key="M15" value="57.86381830653562" />
+      <entry key="M30" value="58.42722988356743" />
+      <entry key="H1" value="58.71243410926931" />
+      <entry key="H2" value="58.85592045749968" />
+      <entry key="H4" value="58.92788590507685" />
+      <entry key="D1" value="58.98797064660987" />
+      <entry key="W1" value="58.99828126758562" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="7.638553595161867E-121" />
+      <entry key="MS500" value="9.475501965413516E-25" />
+      <entry key="S2" value="9.86621457594784E-7" />
+      <entry key="S5" value="0.003959681208974105" />
+      <entry key="S10" value="0.06292599787825452" />
+      <entry key="S30" value="0.397749861506448" />
+      <entry key="S60" value="0.6306741325807231" />
+      <entry key="M2" value="0.7941499433864628" />
+      <entry key="M5" value="0.911928951503488" />
+      <entry key="M10" value="0.9549497115050027" />
+      <entry key="M15" value="0.969736333729729" />
+      <entry key="M30" value="0.9847519148139433" />
+      <entry key="H1" value="0.9923466706821481" />
+      <entry key="H2" value="0.99616598550751" />
+      <entry key="H4" value="0.9980811517644804" />
+      <entry key="D1" value="0.9996799359675494" />
+      <entry key="W1" value="0.9999542702936542" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5376988352651386" />
+      <entry key="MS500" value="3.4673696750341962" />
+      <entry key="S2" value="9.854159339886163" />
+      <entry key="S5" value="16.113809798922833" />
+      <entry key="S10" value="22.233087167252258" />
+      <entry key="S30" value="36.90613537011194" />
+      <entry key="S60" value="45.827346311509665" />
+      <entry key="M2" value="52.06774297795839" />
+      <entry key="M5" value="56.59289040317728" />
+      <entry key="M10" value="58.25445134414397" />
+      <entry key="M15" value="58.82673531120993" />
+      <entry key="M30" value="59.408524992579906" />
+      <entry key="H1" value="59.70304046415856" />
+      <entry key="H2" value="59.85121329080224" />
+      <entry key="H4" value="59.925529730142365" />
+      <entry key="D1" value="59.987577590372915" />
+      <entry key="W1" value="59.99822510786204" />
+    </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3KhlOQ5xrU8XKqPjmTC0P8gNrVd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.duckhunt.executor": "Run",
+    "CidrDebugProfileConversion": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.duckhunt">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="duckhunt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DuckHunt" TARGET_NAME="duckhunt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DuckHunt" RUN_TARGET_NAME="duckhunt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glad" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DuckHunt" TARGET_NAME="glad" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW3" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DuckHunt" TARGET_NAME="glfw" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DuckHunt" TARGET_NAME="glm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="update_mappings" type="CMakeRunConfiguration" factoryName="Application" folderName="GLFW3" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DuckHunt" TARGET_NAME="update_mappings" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.glfw" />
+      <item itemvalue="CMake Application.update_mappings" />
+      <item itemvalue="CMake Application.glm" />
+      <item itemvalue="CMake Application.duckhunt" />
+      <item itemvalue="CMake Application.glad" />
+    </list>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.duckhunt",
+        "cmake": "CMakeBuildProfile:Debug"
+      },
+      "second": "583ef02d-84a3-42ac-97e0-54053a23dc62"
+    }
+  ],
+  "modificationCount": 2
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aadf0bd-343c-488c-8ec2-eeefd7d76648" name="Changes" comment="" />
+      <created>1792017649059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792017649059</updated>
+      <workItem from="1792017649316" duration="431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>
