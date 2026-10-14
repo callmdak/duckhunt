@@ -7,6 +7,7 @@
 
 #include <filesystem>
 
+// reúne os recursos gráficos usados para desenhar uma cena
 struct Renderer
 {
     GLuint program = 0;

@@ -6,6 +6,7 @@
 #include <string>
 #include <vector>
 
+// opções carregadas de config/game.cfg
 struct GameConfig
 {
     int width = 800;
@@ -23,6 +24,7 @@ struct GameConfig
     int duckFrames = 4;
 };
 
+// textura opengl e dados de animação de uma imagem
 struct SpriteTexture
 {
     GLuint id = 0;
@@ -34,6 +36,7 @@ struct SpriteTexture
     std::vector<int> frameDelaysMs;
 };
 
+// valores que mudam durante uma partida
 struct GameState
 {
     float duckX = 0.0f;
@@ -52,6 +55,7 @@ struct GameState
     float dogCelebrationTimer = 0.0f;
 };
 
+// dados compartilhados pelos callbacks de entrada
 struct GameContext
 {
     GameState* game;

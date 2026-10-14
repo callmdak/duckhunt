@@ -4,6 +4,7 @@
 
 #include <GLFW/glfw3.h>
 
+// funções de regras e entrada do jogo
 void launchDuck(GameState& game, const GameConfig& config, std::mt19937& random);
 void resetGame(GameContext& context, bool startImmediately);
 void startNextRound(GameState& game, const GameConfig& config, std::mt19937& random,

@@ -13,6 +13,7 @@
 
 int main(int argc, char* argv[])
 {
+    // encontra os recursos a partir da pasta do executável
     const std::filesystem::path resourceRoot = argc > 0 && argv[0] != nullptr
         ? std::filesystem::absolute(argv[0]).parent_path()
         : std::filesystem::current_path();
@@ -22,6 +23,7 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
+    // cria a janela e prepara o opengl
     if (!glfwInit())
     {
         std::cerr << "Erro ao inicializar GLFW\n";
@@ -71,6 +73,7 @@ int main(int argc, char* argv[])
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+    // atualiza e desenha cada quadro até a janela ser fechada
     double previousTime = glfwGetTime();
     while (!glfwWindowShouldClose(window))
     {
@@ -84,6 +87,7 @@ int main(int argc, char* argv[])
         glfwPollEvents();
     }
 
+    // libera os recursos antes de encerrar
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
     destroyRenderer(renderer);
     glfwDestroyWindow(window);

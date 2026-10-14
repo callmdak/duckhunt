@@ -8,6 +8,7 @@
 
 void launchDuck(GameState& game, const GameConfig& config, std::mt19937& random)
 {
+    // escolhe uma posição e direção aleatórias para o pato
     std::uniform_real_distribution<float> xPosition(80.0f,
         static_cast<float>(config.width) - 152.0f);
     std::uniform_real_distribution<float> yPosition(70.0f,
@@ -23,6 +24,7 @@ void launchDuck(GameState& game, const GameConfig& config, std::mt19937& random)
 
 void resetGame(GameContext& context, bool startImmediately)
 {
+    // recria o estado inicial sem substituir a configuração
     *context.game = GameState{};
     context.game->shotsLeft = context.config->shotsPerRound;
     context.game->started = startImmediately;
@@ -32,6 +34,7 @@ void resetGame(GameContext& context, bool startImmediately)
 void startNextRound(GameState& game, const GameConfig& config, std::mt19937& random,
     SpriteTexture& dog)
 {
+    // avança a rodada ou decide se a partida terminou
     ++game.round;
     game.transitionTime = 0.0f;
     game.shotsLeft = config.shotsPerRound;
@@ -76,6 +79,7 @@ void mouseButtonCallback(GLFWwindow* window, int button, int action, int)
     glfwGetCursorPos(window, &mouseX, &mouseY);
     --game->shotsLeft;
 
+    // considera acerto quando o clique cai dentro do quadrado do pato
     constexpr float duckSize = 72.0f;
     if (mouseX >= game->duckX && mouseX <= game->duckX + duckSize &&
         mouseY >= game->duckY && mouseY <= game->duckY + duckSize)
@@ -134,6 +138,7 @@ void updateGame(GameState& game, const GameConfig& config, std::mt19937& random,
     {
         if (game.duckAlive)
         {
+            // move o pato e inverte a direção ao tocar nos limites
             game.duckX += game.duckVelocityX * deltaTime;
             game.duckY += game.duckVelocityY * deltaTime;
             if (game.duckX < 0.0f || game.duckX > config.width - 72.0f)
@@ -152,6 +157,7 @@ void updateGame(GameState& game, const GameConfig& config, std::mt19937& random,
 
         if ((!game.duckAlive || game.shotsLeft == 0) && !game.dogCelebration)
         {
+            // aguarda uma pausa curta antes de iniciar a próxima rodada
             game.transitionTime += deltaTime;
             if (game.transitionTime >= 0.65f)
             {

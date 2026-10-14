@@ -48,6 +48,7 @@ bool loadConfig(const std::filesystem::path& resourceRoot, GameConfig& config)
 
     std::string line;
 
+    // lê pares chave=valor e mantém padrões para opções desconhecidas
     while (std::getline(file, line))
     {
         const std::size_t separator = line.find('=');
@@ -91,6 +92,7 @@ bool loadConfig(const std::filesystem::path& resourceRoot, GameConfig& config)
 
 GLuint compileShader(GLenum type, const std::string& source, const std::string& label)
 {
+    // compila um shader e informa o erro caso o código glsl seja inválido
     const char* sourcePointer = source.c_str();
     const GLuint shader = glCreateShader(type);
     glShaderSource(shader, 1, &sourcePointer, nullptr);
@@ -151,6 +153,7 @@ GLuint createShaderProgram(const std::filesystem::path& resourceRoot)
 
 void uploadSprite(SpriteTexture& sprite, const unsigned char* pixels)
 {
+    // envia os pixels da imagem para uma textura da placa gráfica
     glGenTextures(1, &sprite.id);
     glBindTexture(GL_TEXTURE_2D, sprite.id);
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
@@ -164,6 +167,7 @@ void uploadSprite(SpriteTexture& sprite, const unsigned char* pixels)
 
 bool loadSprite(const std::string& path, SpriteTexture& sprite)
 {
+    // lê o formato de sprite em texto: paleta seguida pelas linhas de pixels
     std::ifstream file(path);
     int paletteSize = 0;
     if (!(file >> sprite.width >> sprite.height >> paletteSize) ||
@@ -258,6 +262,7 @@ bool loadImage(const std::string& path, SpriteTexture& sprite)
 
     if (extension == ".gif")
     {
+        // junta os quadros do gif numa faixa horizontal
         std::ifstream file(path, std::ios::binary);
         if (!file)
         {
@@ -333,6 +338,7 @@ void advanceSpriteAnimation(SpriteTexture& sprite, float deltaTime)
         return;
     }
 
+    // troca de quadro conforme o tempo definido para cada imagem
     sprite.frameTimerMs += deltaTime * 1000.0f;
     while (sprite.frameTimerMs >= sprite.frameDelaysMs[sprite.currentFrame])
     {

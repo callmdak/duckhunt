@@ -40,6 +40,7 @@ bool initializeRenderer(Renderer& renderer, const GameConfig& config,
         return false;
     }
 
+    // prepara um quadrado reutilizado para desenhar sprites
     const float quadVertices[] = {
         0.0f, 0.0f, 0.0f, 0.0f,
         1.0f, 0.0f, 1.0f, 0.0f,
@@ -75,6 +76,7 @@ bool initializeRenderer(Renderer& renderer, const GameConfig& config,
     projection = glm::ortho(0.0f, static_cast<float>(config.width),
         static_cast<float>(config.height), 0.0f, -1.0f, 1.0f);
     const std::filesystem::path assetRoot = resourceRoot / config.assets;
+    // carrega as imagens definidas na configuração
     const bool spritesLoaded =
         loadImage((assetRoot / config.skyImage).string(), sky) &&
         loadImage((assetRoot / config.hillsImage).string(), hills) &&
@@ -117,6 +119,7 @@ void drawSprite(GLuint program, GLuint vao, const SpriteTexture& texture,
     const glm::vec4& tint = glm::vec4(1.0f), float rotationRadians = 0.0f,
     bool rotateAtBottom = false)
 {
+    // seleciona o quadro da animação e transforma o quadrado na tela
     float frameU0 = u0;
     float frameU1 = u1;
     if (texture.frameCount > 1 && u0 == 0.0f && u1 == 1.0f)
@@ -152,6 +155,7 @@ void drawSprite(GLuint program, GLuint vao, const SpriteTexture& texture,
 
 const std::array<unsigned char, 7>& glyphFor(char character)
 {
+    // cada letra é desenhada como uma grade simples de pixels
     static const std::array<unsigned char, 7> blank{};
     static const std::unordered_map<char, std::array<unsigned char, 7>> glyphs = {
         {'A', {14, 17, 17, 31, 17, 17, 17}}, {'B', {30, 17, 17, 30, 17, 17, 30}},
@@ -184,6 +188,7 @@ void drawText(GLuint program, GLuint vao, GLuint vbo, GLuint whiteTexture,
     const glm::mat4& projection, const std::string& text, float x, float y,
     float pixelSize, const glm::vec4& color)
 {
+    // converte os pixels acesos das letras em pequenos quadrados
     std::vector<float> vertices;
     vertices.reserve(text.size() * 5 * 7 * 6 * 4);
     for (std::size_t characterIndex = 0; characterIndex < text.size(); ++characterIndex)
@@ -245,6 +250,7 @@ void updateRenderer(Renderer& renderer, float deltaTime)
     advanceSpriteAnimation(renderer.grass, deltaTime);
     advanceSpriteAnimation(renderer.duck, deltaTime);
     advanceSpriteAnimation(renderer.gun, deltaTime);
+    // desloca o cenário para simular movimento
     renderer.hillsOffset = std::fmod(renderer.hillsOffset + deltaTime * 7.0f, 200.0f);
     renderer.grassOffset = std::fmod(renderer.grassOffset + deltaTime * 18.0f, 200.0f);
 }
@@ -269,6 +275,7 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
     glViewport(0, 0, config.width, config.height);
     glClearColor(0.25f, 0.65f, 0.88f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
+    // desenha o fundo em camadas, do céu até o chão
     drawSprite(program, vao, sky, projection, 0.0f, 0.0f,
         static_cast<float>(config.width), static_cast<float>(config.height));
 
@@ -303,6 +310,7 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
 
     if (game.started && !game.gameOver && !game.dogCelebration)
     {
+        // mostra placar, mira e arma apenas durante a partida
         drawSprite(program, vao, white, projection, 0.0f, 0.0f,
             static_cast<float>(config.width), 48.0f, 0.0f, 1.0f, false,
             glm::vec4(0.08f, 0.13f, 0.14f, 0.82f));
@@ -350,6 +358,7 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
 
     if (!game.started)
     {
+        // tela inicial
         drawSprite(program, vao, white, projection, config.width * 0.12f,
             config.height * 0.22f, config.width * 0.76f, config.height * 0.47f,
             0.0f, 1.0f, false, glm::vec4(0.05f, 0.12f, 0.13f, 0.84f));
@@ -368,6 +377,7 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
     }
     else if (game.gameOver)
     {
+        // tela final com o resultado e os controles para continuar
         drawSprite(program, vao, white, projection, config.width * 0.18f,
             config.height * 0.28f, config.width * 0.64f, config.height * 0.36f,
             0.0f, 1.0f, false, glm::vec4(0.05f, 0.12f, 0.13f, 0.88f));
@@ -389,6 +399,7 @@ void renderFrame(Renderer& renderer, const GameConfig& config,
 
 void destroyRenderer(Renderer& renderer)
 {
+    // apaga texturas, buffers e shaders criados pelo opengl
     glDeleteTextures(1, &renderer.white.id);
     glDeleteTextures(1, &renderer.sky.id);
     glDeleteTextures(1, &renderer.hills.id);

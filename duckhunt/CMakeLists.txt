@@ -5,14 +5,14 @@ project(DuckHunt VERSION 1.0.0 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Use the static MSVC runtime so the Windows package does not need the
-# Visual C++ redistributable installed separately.
+# usa a biblioteca padrão estática no windows para facilitar a distribuição
 if(MSVC)
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 endif()
 
 include(FetchContent)
 
+# procura o opengl instalado no sistema e baixa as bibliotecas do projeto
 find_package(OpenGL REQUIRED)
 
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
@@ -76,6 +76,7 @@ set_target_properties(duckhunt PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/$<CONFIG>"
 )
 
+# copia os arquivos necessários para perto do executável
 foreach(resource_dir IN ITEMS config assets shaders)
     add_custom_command(TARGET duckhunt POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
