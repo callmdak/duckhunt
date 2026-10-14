@@ -1,0 +1,18 @@
+# CMake build output
+/build/
+/duckhunt/game/build/
+/duckhunt/game/out/
+/duckhunt/build/
+/duckhunt/dist/
+
+# Visual Studio state and build artifacts
+**/.vs/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+
+# Local CMake configuration
+CMakeUserPresets.json
+/duckhunt/duckhunt2.exe
