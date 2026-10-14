@@ -27,3 +27,6 @@ cmake --build build --config Release --target package
 - **Esc:** sair.
 
 Acertar o pato avança a rodada; errar todos os tiros encerra a partida.
+
+##LINK DO VIDEO DE APRESENTAÇÃO
+https://www.youtube.com/watch?v=wrGjtrA-Q3A&feature=youtu.be
